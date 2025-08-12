@@ -1,0 +1,16 @@
+[Unit]
+Wants=network-online.target
+After=network-online.target
+Description=DC-UPS service
+
+[Service]
+User=root
+WorkingDirectory=/root
+ExecStart=/opt/tools/bin/mwdrsups.py
+Restart=always
+RestartSec=30
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
