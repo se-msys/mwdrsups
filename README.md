@@ -4,7 +4,7 @@ Mean Well is well known as a producer of better quality power supplies in variou
 
 To communicate with the unit you need some kind of USB-to-RS485 dongle. This exists in various forms from cheap AliExpress $5 ones to more official-band names for $99. You will need to connect GND, D+ and D-.
 
-This script is very basic but cover my needs, but could see it as a example code.
+This script is very basic but cover my needs, you could see it as example code for your own projects.
 
 ### Background
 
